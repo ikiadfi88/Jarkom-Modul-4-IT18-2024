@@ -59,6 +59,8 @@ Keunggulan utama dari `VLSM` adalah `efisiensi` penggunaan alamat IP, karena kit
 
 Berikut merupakan hasil `pemecahan` subnet besar yang akan dibentuk menjadi `jaringan` yang lebih kecil
 
+![Uploading TREE JARKOM.jpg…]()
+
 ### Pembagian IP
 
 Berikut adalah hasil dari pembagian `IP` yang telah kami peroleh dari hasil `pemecahan` tadi menjadi jaringan yang lebih kecil
