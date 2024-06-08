@@ -35,6 +35,8 @@ Pada modul kali ini, kami mengimplementasikan `CIDR` dengan menggunakan `Cisco` 
 
 ## Topologi PKT VLSM
 
+![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/4187bd5a-8791-4867-92da-abc142408f9b)
+
 ## Topologi GNS CIDR
 
 ## Prefix IP
@@ -43,31 +45,35 @@ Kelompok kami memiliki prefix IP `192.242`
 
 ## Rute
 
-Setelah melakukan riset dan melakukan percobaan serta melihat cara melakukan routing pada modul 4 jarkom, diperoleh hasil dari `rute` yang kami dapatkan adalah sebagai berikut
+Setelah melakukan analisis, diperoleh hasil dari `rute` yang kami dapatkan adalah sebagai berikut
+
+![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/93adcecd-a7c9-443d-b650-924f76d85bda)
 
 ## VLSM
 
 VLSM atau biasa dikenal sebagai _Variable Length Subnet Masking_ merupakan teknik `subnetting` untuk mengefisienkan pembagian `IP` di dalam jaringan. Besar `netmask` disesuaikan dengan banyaknya komputer / host yang membutuhkan alamat IP
 
-Dalam suatu subnet. Dengan menggunakan `VLSM`, kita dapat mengalokasikan blok alamat `IP` yang sesuai dengan kebutuhan tiap subnet, tanpa perlu mengikuti batasan-batasan yang seragam. Ini memungkinkan administrator jaringan untuk lebih `fleksibel` dalam mengoptimalkan penggunaan alamat `IP` dan `menghindari pemborosan` sumber daya.
+Dalam suatu subnet. Dengan menggunakan `VLSM`, kita dapat mengalokasikan blok alamat `IP` yang sesuai dengan kebutuhan tiap subnet, tanpa perlu mengikuti batasan-batasan yang seragam. Ini memungkinkan administrator jaringan untuk lebih fleksibel dalam mengoptimalkan penggunaan alamat `IP` dan menghindari pemborosan sumber daya.
 
-Proses implementasi `VLSM` melibatkan `pemecahan` suatu jaringan besar `menjadi subnet yang lebih kecil` dengan ukuran yang berbeda-beda. Setiap subnet kemudian diberikan `netmask` sesuai dengan jumlah host yang diperlukan di dalamnya. Dengan cara ini, subnet yang memiliki lebih banyak host akan mendapatkan `netmask` dengan jumlah bit yang lebih sedikit, sementara subnet yang membutuhkan lebih sedikit host akan memiliki `netmask` dengan jumlah `bit` yang lebih banyak.
+Proses implementasi `VLSM` melibatkan pembagian suatu jaringan besar menjadi subnet yang lebih kecil dengan ukuran yang berbeda-beda. Setiap subnet kemudian diberikan `netmask` sesuai dengan jumlah host yang diperlukan di dalamnya. Dengan cara ini, subnet yang memiliki lebih banyak host akan mendapatkan `netmask` dengan jumlah bit yang lebih sedikit, sementara subnet yang membutuhkan lebih sedikit host akan memiliki `netmask` dengan jumlah `bit` yang lebih banyak.
 
-Keunggulan utama dari `VLSM` adalah `efisiensi` penggunaan alamat IP, karena kita dapat menghindari memberikan `subnet` dengan ukuran yang besar kepada jaringan kecil yang sebenarnya hanya membutuhkan sejumlah kecil alamat IP. Selain itu, `VLSM` juga membantu dalam mengurangi `konsumsi` alamat IP secara keseluruhan di dalam jaringan, sehingga dapat `mendukung pertumbuhan dan perluasan jaringan` secara lebih efektif.
+Keunggulan utama dari `VLSM` adalah efisiensi penggunaan alamat IP, karena kita dapat menghindari memberikan `subnet` dengan ukuran yang besar kepada jaringan kecil yang sebenarnya hanya membutuhkan sejumlah kecil alamat IP. Selain itu, `VLSM` juga membantu dalam mengurangi penggunaan alamat IP secara keseluruhan di dalam jaringan, sehingga dapat mendukung pertumbuhan dan perluasan jaringan secara lebih efektif.
 
 ### Tree
 
-Berikut merupakan hasil `pemecahan` subnet besar yang akan dibentuk menjadi `jaringan` yang lebih kecil
+Berikut merupakan hasil bentuk tree terhadap subnet besar yang akan dibentuk menjadi `jaringan` yang lebih kecil
 
 ![TREE JARKOM VSLM](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/6410d370-6ba4-49cf-840b-cf9333eb154a)
 
 ### Pembagian IP
 
-Berikut adalah hasil dari pembagian `IP` yang telah kami peroleh dari hasil `pemecahan` tadi menjadi jaringan yang lebih kecil
+Berikut adalah hasil dari pembagian `IP` yang telah kami peroleh dari hasil pembagian tadi menjadi jaringan yang lebih kecil
 
-### Konfigurasi Network
+![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/c47e2f73-59b6-4fa1-92a2-8876a14a5a96)
 
 ### Testing
+
+
 
 ## CIDR
 
