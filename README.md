@@ -111,9 +111,47 @@ Ulangi langkah di atas ke client dan server lain juga
 
     - **JAWA**
 
-       ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/57e269a6-fdcc-4d63-af2b-64bc4e45f434)
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/57e269a6-fdcc-4d63-af2b-64bc4e45f434)
 
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/3a5a24c7-df2e-470d-bd2f-0be4e4baf6b7)
+
+    - **SUMATERA**
+
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/b0784163-2dde-4a86-8f36-5abf0769e140)
+
+    - **KALIMANTAN**
+
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/1f87a1e8-4f8f-4940-bbf8-a2e97216bfe3)
+
+    - **SULAWESI**
       
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/116c81b6-ac7e-40e3-a746-ec2312066af6)
+
+    - **LAMPUNG**
+
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/f84234ca-5091-49ca-b19f-ffaee0afeef4)
+
+    - **SUMATERA UTARA**
+
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/8ce80a7d-ca3e-486c-ae28-b61a3d9e86f5)
+
+    - **ACEH**
+   
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/3fa7fb67-f7b8-4ae9-b97f-d31964ca299b)
+
+    - **KALIMANTAN UTARA**
+
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/0226436a-7704-4e1b-989d-01cf88106a6b)
+
+    - **KALIMANTAN TIMUR**
+
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/251936f6-93d2-4b28-99d6-6539ec2a620a)
+
+    - **KALIMANTAN SELATAN**
+
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/f78f5524-ee07-4d23-9432-2ab3375e5c49)
+
+----------
 
 ### Testing
 
