@@ -33,23 +33,23 @@ Pada modul kali ini, kami mengimplementasikan `CIDR` dengan menggunakan `Cisco` 
   - [Pembagian IP](#pembagian-ip-1)
   - [Testing](#testing-1)
 
-## Topologi PKT VLSM
+# Topologi PKT VLSM
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/4187bd5a-8791-4867-92da-abc142408f9b)
 
-## Topologi GNS CIDR
+# Topologi GNS CIDR
 
-## Prefix IP
+# Prefix IP
 
 Kelompok kami memiliki prefix IP `192.242`
 
-## Rute
+# Rute
 
 Setelah melakukan analisis, diperoleh hasil dari `rute` yang kami dapatkan adalah sebagai berikut
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/93adcecd-a7c9-443d-b650-924f76d85bda)
 
-## VLSM
+# VLSM
 
 VLSM atau biasa dikenal sebagai _Variable Length Subnet Masking_ merupakan teknik `subnetting` untuk mengefisienkan pembagian `IP` di dalam jaringan. Besar `netmask` disesuaikan dengan banyaknya komputer / host yang membutuhkan alamat IP
 
@@ -59,13 +59,13 @@ Proses implementasi `VLSM` melibatkan pembagian suatu jaringan besar menjadi sub
 
 Keunggulan utama dari `VLSM` adalah efisiensi penggunaan alamat IP, karena kita dapat menghindari memberikan `subnet` dengan ukuran yang besar kepada jaringan kecil yang sebenarnya hanya membutuhkan sejumlah kecil alamat IP. Selain itu, `VLSM` juga membantu dalam mengurangi penggunaan alamat IP secara keseluruhan di dalam jaringan, sehingga dapat mendukung pertumbuhan dan perluasan jaringan secara lebih efektif.
 
-### Tree
+## Tree
 
 Berikut merupakan hasil bentuk tree terhadap subnet besar yang akan dibentuk menjadi `jaringan` yang lebih kecil
 
 ![TREE JARKOM VSLM](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/6410d370-6ba4-49cf-840b-cf9333eb154a)
 
-### Pembagian IP
+## Pembagian IP
 
 Berikut adalah hasil dari pembagian `IP` yang telah kami peroleh dari hasil pembagian tadi menjadi jaringan yang lebih kecil
 
@@ -73,9 +73,9 @@ Berikut adalah hasil dari pembagian `IP` yang telah kami peroleh dari hasil pemb
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/c47e2f73-59b6-4fa1-92a2-8876a14a5a96)
 
-### Konfigurasi Network
+## Konfigurasi Network
 
-#### Router
+### Router
 
 1. Untuk konfigurasi Router, pertama masukkan IP dan Gateaway masing-masing router di port Ethernet yang sesuai dengan arah subnet pada pembagian di atas.
 
@@ -91,7 +91,7 @@ Note: untuk sambungan `Fa0/0` (JAWA ke Cloud) tidak perlu dikonfigurasikan.
 
 Ulangi langkah ini pada semua router lain
 
-#### Client & Server
+### Client & Server
 
 1. Konfigurasikan IP, Mask, dan Gateaway sesuai dengan tabel pembagian IP di atas.
 
@@ -105,7 +105,7 @@ Ulangi langkah ini pada semua router lain
 
 Ulangi langkah di atas ke client dan server lain juga
 
-#### Konfigurasi Routing
+### Konfigurasi Routing
 
 1. Pada masing-masing router buka tab static. Kemudian lakukan konfigurasi sesuai berikut
 
@@ -150,10 +150,21 @@ Ulangi langkah di atas ke client dan server lain juga
     - **KALIMANTAN SELATAN**
 
       ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/f78f5524-ee07-4d23-9432-2ab3375e5c49)
+      
+    - **MAKASSAR**
 
-----------
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/b743e143-54e3-4652-9fbc-5dc7cebfcb99)
 
-### Testing
+    - **BELAWA**
+
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/093f231d-8cd5-46c4-a29f-55cd2bdf32d6)
+
+    - **MALUKU UTARA**
+
+      ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/ea7c3c78-bd9a-4989-aafa-58ce8a8f132d)
+
+      
+## Testing
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/883bc059-1ea9-415e-a4d7-3c52d8b4bbc2)
 
@@ -161,7 +172,7 @@ Ulangi langkah di atas ke client dan server lain juga
 
 ----------
 
-## CIDR
+# CIDR
 
 CIDR atau biasa dikenal _Classless Inter-Domain_ Routing adalah suatu metode `pengalamatan dan pengelompokan alamat IP` yang memungkinkan penggunaan lebih efisien dari ruang alamat IP yang tersedia di Internet. Sebelum diperkenalkannya `CIDR`, pengalamatan IP didasarkan pada kelas-kelas, seperti `kelas A, kelas B, dan kelas C`. Setiap kelas memiliki `ukuran tetap` untuk jaringan dan host, yang seringkali mengakibatkan pemborosan alamat IP.
 
@@ -177,34 +188,34 @@ Dalam contoh ini, `"192.242..0.0"` adalah alamat jaringan, dan `"/24"` menunjukk
 
 CIDR juga `mendukung agregasi rute`, yang memungkinkan penyederhanaan tabel routing di Internet. Dengan `menggabungkan beberapa blok alamat IP ke dalam satu entri routing`, CIDR membantu mengurangi ukuran tabel routing dan efektif meningkatkan efisiensi dalam pengelolaan lalu lintas jaringan global.
 
-### Penggabungan IP
+## Penggabungan IP
 
 Berikut merupakan metode yang kami gunakan untuk melakukan penggabungan IP
 
-#### Kondisi Node Awal
+### Kondisi Node Awal
 
-#### Penggabungan Node Pertama (B)
+### Penggabungan Node Pertama (B)
 
-#### Penggabungan Node Kedua (C)
+### Penggabungan Node Kedua (C)
 
-#### Penggabungan Node Ketiga
+### Penggabungan Node Ketiga
 
-#### Penggabungan Node Keempat
+### Penggabungan Node Keempat
 
-#### Penggabungan Node Kelima
+### Penggabungan Node Kelima
 
-#### Penggabungan Node Keenam
+### Penggabungan Node Keenam
 
-#### Penggabungan Node Ketujuh
+### Penggabungan Node Ketujuh
 
-#### Penggabungan Node Kedelapan
+### Penggabungan Node Kedelapan
 
-### Tree
+## Tree
 
 Setelah dilakukannya `penggabungan IP`, sekarang kita melakukan pembagian IP dengan menggunakan `tree` pada masing-masing kelompok yang telah dibuat sebelumnya sebagai berikut
 
-### Pembagian IP
+## Pembagian IP
 
 Berikut merupakan hasil dari pembagian IP berdasarkan Tree yang telah dibuat pada GNS menggunakan CIRD
 
-### Testing
+## Testing
