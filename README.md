@@ -63,7 +63,6 @@ Keunggulan utama dari `VLSM` adalah efisiensi penggunaan alamat IP, karena kita 
 
 Berikut merupakan hasil bentuk tree terhadap subnet besar yang akan dibentuk menjadi `jaringan` yang lebih kecil
 
-
 ![TREE JARKOM VSLM](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/6410d370-6ba4-49cf-840b-cf9333eb154a)
 
 ### Pembagian IP
@@ -84,7 +83,7 @@ Berikut adalah hasil dari pembagian `IP` yang telah kami peroleh dari hasil pemb
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/4b61fdc2-cc30-4457-b6b3-261ccfd3a002)
 
-2. Contoh pada router Jawa, kemudian lakukan ke semua router lainnya. Beriut contoh konfigurasi pada ethernet `Fa0/1` .
+3. Contoh pada router Jawa, kemudian lakukan ke semua router lainnya. Beriut contoh konfigurasi pada ethernet `Fa0/1` .
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/3d6fbbeb-256d-4ff5-a1a1-33aaf2c7d45f)
 
@@ -92,12 +91,37 @@ Note: untuk sambungan `Fa0/0` (JAWA ke Cloud) tidak perlu dikonfigurasikan.
 
 Ulangi langkah ini pada semua router lain
 
+#### Client & Server
+
+1. Konfigurasikan IP, Mask, dan Gateaway sesuai dengan tabel pembagian IP di atas.
+
+2. Untuk node Client & Server, buka tab desktop dan pilih IP Configuration. Kemudian pada node server, tambahkan DNS Server sesuai dengan Subnet Mask
+
+3. Contoh pada client Sebuku dan server Sebesi
+
+![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/6a5b7329-bb64-4fe2-acdc-3272cb210d3b)
+
+![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/0f6aaa5f-ff78-4c5b-8329-f47d1f91f8cd)
+
+Ulangi langkah di atas ke client dan server lain juga
+
+#### Konfigurasi Routing
+
+1. Pada masing-masing router buka tab static. Kemudian lakukan konfigurasi sesuai berikut
+
+ **  - JAWA**
+
+       ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/57e269a6-fdcc-4d63-af2b-64bc4e45f434)
+
+      
+
 ### Testing
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/883bc059-1ea9-415e-a4d7-3c52d8b4bbc2)
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/c95eab88-4bb9-4c35-8f52-9ba5740a3b5e)
 
+----------
 
 ## CIDR
 
