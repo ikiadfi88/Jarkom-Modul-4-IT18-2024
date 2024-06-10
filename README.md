@@ -74,6 +74,24 @@ Berikut adalah hasil dari pembagian `IP` yang telah kami peroleh dari hasil pemb
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/c47e2f73-59b6-4fa1-92a2-8876a14a5a96)
 
+### Konfigurasi Network
+
+#### Router
+
+1. Untuk konfigurasi Router, pertama masukkan IP dan Gateaway masing-masing router di port Ethernet yang sesuai dengan arah subnet pada pembagian di atas.
+
+2. Tentukan mana ethernet yang akan dikonfigurasikan antar router. Jika dilihat pada jaringan Jawa terdapat `Fa0/1` , `Fa1/1` , `Fa1/0` , dan `Fa0/0`. Kita perlu memasukkan IP dan subnet mask yang seusai pada masing-masing jaringan ethernet yang tersambung ke router lain
+
+![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/4b61fdc2-cc30-4457-b6b3-261ccfd3a002)
+
+2. Contoh pada router Jawa, kemudian lakukan ke semua router lainnya. Beriut contoh konfigurasi pada ethernet `Fa0/1` .
+
+![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/3d6fbbeb-256d-4ff5-a1a1-33aaf2c7d45f)
+
+Note: untuk sambungan `Fa0/0` (JAWA ke Cloud) tidak perlu dikonfigurasikan.
+
+Ulangi langkah ini pada semua router lain
+
 ### Testing
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/883bc059-1ea9-415e-a4d7-3c52d8b4bbc2)
