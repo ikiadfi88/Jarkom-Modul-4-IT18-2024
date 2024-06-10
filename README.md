@@ -76,6 +76,9 @@ Berikut adalah hasil dari pembagian `IP` yang telah kami peroleh dari hasil pemb
 
 ### Testing
 
+![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/883bc059-1ea9-415e-a4d7-3c52d8b4bbc2)
+
+![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/c95eab88-4bb9-4c35-8f52-9ba5740a3b5e)
 
 
 ## CIDR
