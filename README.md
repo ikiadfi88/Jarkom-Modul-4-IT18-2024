@@ -63,13 +63,14 @@ Keunggulan utama dari `VLSM` adalah efisiensi penggunaan alamat IP, karena kita 
 
 Berikut merupakan hasil bentuk tree terhadap subnet besar yang akan dibentuk menjadi `jaringan` yang lebih kecil
 
-![Topologi_IT18](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/80c3b8ab-3d31-4779-982f-a551fa2dcd6f)
 
 ![TREE JARKOM VSLM](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/6410d370-6ba4-49cf-840b-cf9333eb154a)
 
 ### Pembagian IP
 
 Berikut adalah hasil dari pembagian `IP` yang telah kami peroleh dari hasil pembagian tadi menjadi jaringan yang lebih kecil
+
+![Topologi_IT18](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/80c3b8ab-3d31-4779-982f-a551fa2dcd6f)
 
 ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/c47e2f73-59b6-4fa1-92a2-8876a14a5a96)
 
