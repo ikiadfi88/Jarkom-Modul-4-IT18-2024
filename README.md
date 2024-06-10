@@ -109,7 +109,7 @@ Ulangi langkah di atas ke client dan server lain juga
 
 1. Pada masing-masing router buka tab static. Kemudian lakukan konfigurasi sesuai berikut
 
- **  - JAWA**
+    - **JAWA**
 
        ![image](https://github.com/ikiadfi88/Jarkom-Modul-4-IT18-2024/assets/120791817/57e269a6-fdcc-4d63-af2b-64bc4e45f434)
 
